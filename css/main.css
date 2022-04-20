@@ -1,0 +1,114 @@
+*{
+  box-sizing: border-box;
+}
+body{
+	font-size: 20px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+	color: #333;
+  font-weight: 300;
+  text-align: center;
+  background-color: #faf5e7;
+  display: flex;
+  justify-content: center;
+}
+h1{
+  font-weight: 800;
+  margin: 0px;
+  padding: 10px;
+  font-size: 56px;
+  background-color: #444;
+  color: #fff;
+}
+.question{
+  font-size: 48px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.answers {
+  margin-bottom: 20px;
+  text-align: left;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 400;
+  width: 90%;
+}
+.answers label{
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+button{
+  font-family: 'Work Sans', sans-serif;
+	font-size: 22px;
+  font-weight: bold;
+	background-color: #444;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 20px;
+  width: 35%;
+	cursor: pointer;
+    margin-top: 150px;
+	margin-bottom: 20px;
+}
+button:hover{
+	background-color: rgb(16, 16, 16);
+}
+
+.slide{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+
+}
+.active-slide{
+  opacity: 1;
+  z-index: 2;
+}
+.quiz-container{
+  position: relative;
+  height: 200px;
+  margin-top: 40px;
+}
+.box-quiz{
+   
+    margin-top: 20px;
+    width: 650px;
+    border: black 2px solid;
+    border-radius: 15px;
+    padding: 20px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+
+
+label{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+label:hover{
+    background-color: rgb(99, 99, 99);
+    color: white;
+}
+
+.radio-btn{
+    transform: translate(0%, -50%);
+    -webkit-transform: translate(0%, -50%);
+    -moz-transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+    -o-transform: translate(0%, -50%);
+}
